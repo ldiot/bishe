@@ -1,0 +1,92 @@
+<!--<link rel="stylesheet" href="/dashboard/bishe/tp5/public/static/css/style.css">-->
+
+<table border="1" cellspacing="0" cellpadding="2" width="%40" >
+    <caption style="font-size: 22px;font-weight: bold">员工信息表</caption>
+    <tr style="background-color: #4288ce">
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+        <th>工资</th>
+        <th>级别</th>
+        <th>籍贯</th>
+    </tr>
+    {php} foreach($user as $key=>$value):{/php}
+    <tr>
+        <td>{php} echo $key;{/php}</td>
+        <td>{php} echo $value['name'];{/php}</td>
+        <td>{php} echo $value['sex'];{/php}</td>
+
+        {php} if($value['age']>=18):{/php}
+        <td>成年</td>
+        {php} else:{/php}
+        <td>未成年</td>
+        {php} endif;{/php}
+
+        <td>{php} echo $value['salary'];{/php}</td>
+        <td>{php} echo $value['level'];{/php}</td>
+        <td>{php} echo $value['home'];{/php}</td>
+    </tr>
+    {php} endforeach;{/php}
+</table>
+
+
+
+
+<!--    {volist name="user" id="vo" empty="没有数据"}-->
+<!--    <tr>-->
+<!--        <td>{$key}</td>-->
+<!--        <td>{$vo.name}</td>-->
+<!--        <td>{$vo.sex}</td>-->
+<!--        {egt name="vo.age" value="18"}-->
+<!--        <td>成年</td>-->
+<!--        {else /}-->
+<!--        <td>未成年</td>-->
+<!--        {/egt}-->
+
+<!--        {compare type="egt" name="vo.age" value="$age"}-->
+<!--        <td>成年</td>-->
+<!--        {else /}-->
+<!--        <td>未成年</td>-->
+<!--        {/compare}-->
+
+<!--        {between name="vo.salary" value="3000,5000"}-->
+<!--        <td>中等收入</td>-->
+<!--        {else /}-->
+<!--        <td>高收入</td>-->
+<!--        {/between}-->
+
+<!--        {switch name="vo.level"}-->
+<!--        {case value="1"}<td>钻石</td>{/case}-->
+<!--        {case value="2"}<td>金牌</td>{/case}-->
+<!--        {case value="3"}<td>银牌</td>{/case}-->
+<!--        {case value="4"}<td>铜牌</td>{/case}-->
+<!--        {/switch}-->
+
+<!--        {if condition="$vo.home==1"}-->
+<!--        <td>安徽</td>-->
+<!--        {elseif condition="$vo.home==2"}-->
+<!--        <td>外省</td>-->
+<!--        {else /}-->
+<!--        <td>外国人</td>-->
+<!--        {/if}-->
+<!--    </tr>-->
+<!--    {/volist}-->
+
+<!--    {foreach name="user" item="value"}-->
+<!--        <tr>-->
+<!--            <td>{$key}</td>-->
+<!--            <td>{$value.name}</td>-->
+<!--            <td>{$value.sex}</td>-->
+<!--            <td>{$value.age}</td>-->
+<!--            <td>{$value.salary}</td>-->
+<!--        </tr>-->
+<!--    {/foreach}-->
+
+<!--    {for start='0' end='10' comparison='lt' name='i' step='1'}-->
+<!--    <tr>-->
+<!--        {for start='0' end='5' comparison='lt' name='j' step='1'}-->
+<!--        <td>{$j*5+$i}</td>-->
+<!--        {/for}-->
+<!--    </tr>-->
+<!--    {/for}-->

@@ -1,0 +1,32 @@
+{include file="admin@public/header" /}
+
+{block name="body"}
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <div class="panel-body">
+                {if $errmsg!=''}
+                <div class="alert alert-block alert-danger">
+                    {$errmsg}
+                </div>
+                {else/}
+                <div class="alert alert-info ">
+                    <p>版本号：{$upinfo['vernum']},更新成功！</p>
+                    <p>{$upinfo['upcontent']}</p>
+                    <p>2秒后继续升级</p>
+                   <script>
+                       setTimeout(function(){ //两秒后
+                            window.location.href = "/admin/index/upgrade";
+                        },2000);
+                   </script>
+                 </div>
+                {/if}
+
+            </div>
+        </section>
+    </div>
+</div>
+
+{/block}
+{include file="admin@public/footer" /}

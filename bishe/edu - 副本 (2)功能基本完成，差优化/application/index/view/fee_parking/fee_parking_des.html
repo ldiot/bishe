@@ -1,0 +1,120 @@
+
+{extend name='public/base'/}
+{block name='header'}{/block}{//关掉头部}
+{block name='menu'}{/block}{//关掉菜单}
+{block name='seo'}
+    <title>{$title|default="标题"}</title>
+</head>
+<body>
+{/block}
+
+{block name='content'}
+<article class="cl pd-20">
+    <table class="table table-border table-bordered table-bg">
+        <thead>
+        <tr>
+            <th scope="col" colspan="9">个人信息</th>
+        </tr>
+        <tr class="text-c">
+            <th width="40">ID</th>
+            <th width="100">姓名</th>
+            <th width="100">性别</th>
+            <th width="130">年龄</th>
+            <th width="130">电话</th>
+            <th width="130">身份证号</th>
+            <th width="130">职位</th>
+            <th width="150">工作地址</th>
+            <th width="150">备注</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="text-c">
+            <td>{$resident.id}</td>
+            <td>{$resident.name}</td>
+            <td>{$resident.sex}</td>
+            <td>{$resident.age}</td>
+            <td>{$resident.tel}</td>
+            <td>{$resident.idcard_number}</td>
+            <td>{$resident.job}</td>
+            <td>{$resident.address}</td>
+            <td>{$resident.remark}</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <table class="table table-border table-bordered table-bg">
+        <thead>
+        <tr>
+            <th scope="col" colspan="8">房屋信息</th>
+        </tr>
+        <tr class="text-c">
+            <th width="40">房间编号</th>
+            <th width="100">楼盘编号</th>
+            <th width="100">房屋位置</th>
+            <th width="130">单元号</th>
+            <th width="130">门牌号</th>
+            <th width="130">面积</th>
+            <th width="130">入住时间</th>
+            <th width="150">备注</th>
+        </tr>
+        </thead>
+        <tbody>
+        {volist name="house" id="vo"}
+        <tr class="text-c">
+            <td>{$vo.id}</td>
+            <td>{$vo.building_id}</td>
+            <td>{$vo.place}</td>
+            <td>{$vo.unit}</td>
+            <td>{$vo.doorplate}</td>
+            <td>{$vo.area}</td>
+            <td>{$vo.check_in_time}</td>
+            <td>{$vo.remark}</td>
+        </tr>
+        {/volist}
+        </tbody>
+    </table>
+
+
+    <table class="table table-border table-bordered table-bg">
+        <thead>
+        <tr>
+            <th scope="col" colspan="6">停车位信息</th>
+        </tr>
+        <tr class="text-c">
+            <th width="40">ID</th>
+            <th width="100">类型</th>
+            <th width="100">停车场</th>
+            <th width="130">车位编号</th>
+            <th width="130">车牌号</th>
+            <th width="130">备注</th>
+        </tr>
+        </thead>
+        <tbody>
+        {volist name="parking" id="vo"}
+        <tr class="text-c">
+            <td>{$vo.id}</td>
+            <td>{$vo.type}</td>
+            <td>{$vo.parking_lot}</td>
+            <td>{$vo.parking_lot_id}</td>
+            <td>{$vo.plate_number}</td>
+            <td>{$vo.remark}</td>
+        </tr>
+        {/volist}
+        </tbody>
+    </table>
+</article>
+{/block}
+
+{block name='js'}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+</body>
+</html>

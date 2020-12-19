@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0998f2fb-2ae6-41ad-9ff4-949597116e6a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="a0f63869-e3e6-43c7-989c-a685a193ca2f" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="D:\xampp\htdocs\dashboard\bishe\edu\public" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-image" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-migration" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-testing" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-worker" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-sae" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-mongo" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-angular" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-queue" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/workerman/workerman" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+    </include_path>
+  </component>
+  <component name="PhpXdebugProxy" ide_key="PHPSTROM" host="localhost" port="80" />
+  <component name="ProjectId" id="1aU4BO1oMV3JGUQerxphPGHxd7B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/index/view" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\dashboard\bishe\edu\application\index\view\user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\dashboard\bishe\edu\application\index\view" />
+      <recent name="D:\xampp\htdocs\dashboard\bishe\edu\application\index\view\complaint" />
+      <recent name="D:\xampp\htdocs\dashboard\bishe\edu\application\index\view\admin" />
+      <recent name="D:\xampp\htdocs\dashboard\bishe\edu\application\index\view\student" />
+      <recent name="D:\xampp\htdocs\dashboard\bishe\edu\application\index\view\teacher" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Page.Unnamed">
+    <configuration name="User.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/application/index/controller/User.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" server_name="localhost" start_url="/dashboard/bishe/edu/public">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.User.php" />
+      <item itemvalue="PHP Web Page.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.User.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0998f2fb-2ae6-41ad-9ff4-949597116e6a" name="Default Changelist" comment="" />
+      <created>1586784608841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586784608841</updated>
+      <workItem from="1586784611353" duration="284000" />
+      <workItem from="1586785155785" duration="11421000" />
+      <workItem from="1586798635818" duration="6033000" />
+      <workItem from="1586920091116" duration="11701000" />
+      <workItem from="1586932377127" duration="38631000" />
+      <workItem from="1587023246057" duration="14328000" />
+      <workItem from="1587047526999" duration="17099000" />
+      <workItem from="1587103093082" duration="32472000" />
+      <workItem from="1587188610402" duration="1972000" />
+      <workItem from="1587398771090" duration="16315000" />
+      <workItem from="1587462408647" duration="16648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="300" y="38" key="#CLI_Interpreters" timestamp="1587032804850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="300" y="38" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1587032804850" />
+    <state x="280" y="0" key="#Servers" timestamp="1587034437953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="0" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1587034437953" />
+    <state x="391" y="51" key="#User.php" timestamp="1587030722120">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="51" key="#User.php/0.0.1366.728@0.0.1366.728" timestamp="1587030722120" />
+    <state x="154" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587034617227">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="154" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587034617227" />
+    <state x="826" y="238" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587475091342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="826" y="238" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587475091342" />
+    <state x="398" y="187" width="646" height="359" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1587033145550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="187" width="646" height="359" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1366.728@0.0.1366.728" timestamp="1587033145550" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587033445220">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587033445220" />
+    <state width="1323" height="30" key="GridCell.Tab.0.bottom" timestamp="1587484393880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587484393880" />
+    <state width="1323" height="30" key="GridCell.Tab.0.center" timestamp="1587484393880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587484393880" />
+    <state width="1323" height="30" key="GridCell.Tab.0.left" timestamp="1587484393879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587484393879" />
+    <state width="1323" height="30" key="GridCell.Tab.0.right" timestamp="1587484393880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587484393880" />
+    <state width="1323" height="30" key="GridCell.Tab.1.bottom" timestamp="1587484393881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587484393881" />
+    <state width="1323" height="30" key="GridCell.Tab.1.center" timestamp="1587484393880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587484393880" />
+    <state width="1323" height="30" key="GridCell.Tab.1.left" timestamp="1587484393880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587484393880" />
+    <state width="1323" height="30" key="GridCell.Tab.1.right" timestamp="1587484393881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587484393880" />
+    <state width="1323" height="30" key="GridCell.Tab.2.bottom" timestamp="1587484393881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587484393881" />
+    <state width="1323" height="30" key="GridCell.Tab.2.center" timestamp="1587484393881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1587484393881" />
+    <state width="1323" height="30" key="GridCell.Tab.2.left" timestamp="1587484393881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1587484393881" />
+    <state width="1323" height="30" key="GridCell.Tab.2.right" timestamp="1587484393881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="30" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1587484393881" />
+    <state x="0" y="354" key="NewPhpClassDialog" timestamp="1587137821486">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="354" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1587137821486" />
+    <state x="602" y="426" key="NewPhpFileDialog" timestamp="1587475119208">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="602" y="426" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1587475119208" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1587033124517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587033124517" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587462407342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587462407342" />
+    <state x="390" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587409347412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587409347412" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/User.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/User.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/User.php</url>
+          <line>72</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/Grade.php</url>
+          <line>96</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/User.php</url>
+          <line>154</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/Teacher.php</url>
+          <line>89</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/Student.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/User.php</url>
+          <line>70</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/Repair.php</url>
+          <line>91</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/Repair.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,71 @@
+{include file="public/header" /}
+<section class="content">
+
+    <div class="row">
+
+        <div class="panel-body" style="margin: 0 auto;width: 500px;margin-top: 10%">
+            <section class="panel">
+                <header class="panel-heading  text-center">
+                    智云产品授权查询
+                </header>
+                <div class="panel-body">
+                    <form class="form-horizontal"  action="/index/index/clientcheck">
+                        <div class="form-group">
+                            <label   class="col-lg-4 col-sm-4 control-label">域名</label>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" name="domain"   placeholder="例如www.zhiyunzhushou.com"  style="width: 80%" >
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-lg-4 col-sm-4 control-label">手机号</label>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control"  name="mobile"  placeholder="请输入预留手机号"  style="width: 80%"  >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-lg-4 col-sm-4 control-label" >授权码</label>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control"  name="auth_code"  placeholder="请输入授权码"  style="width: 80%">
+                            </div>
+                        </div>
+                          <div class="form-group">
+                            <div class="col-lg-offset-4 col-lg-10 col-sm-offset-4 col-sm-10">
+                                <button type="submit" class="btn btn-danger">查 询</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+    <!-- row end -->
+</section>
+<script type="text/javascript">
+    $(function(){
+
+        $("form").submit(function(){
+            var self = $(this);
+            $.post(self.attr("action"), self.serialize(), success, "json");
+            return false;
+
+            function success(data){
+                console.log(data);
+                if(data.code){
+                    $.messager.show('已授权：有效期至'+data.data.enddt, {placement: 'center',type:'success'});
+
+                } else {
+                    $.messager.show(data.msg, {placement: 'center',type:'success'});
+
+                }
+            }
+        });
+
+
+
+    });
+</script>
+{include file="public/footer" /}

@@ -1,0 +1,127 @@
+
+<!--_menu 作为公共模版分离出去-->
+<aside class="Hui-aside">
+
+    <div class="menu_dropdown bk_2">
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 学生管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('student/studentList')}" title="品牌管理">学生列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-comments">
+            <dt><i class="Hui-iconfont">&#xe622;</i> 教师管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('teacher/teacherList')}" title="评论列表">教师列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-member">
+            <dt><i class="Hui-iconfont">&#xe60d;</i> 班级管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('grade/gradelist')}" title="分享记录">班级列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('user/adminlist')}" title="管理员列表">管理员列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 系统用户管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('admin/adminlist')}" title="系统用户列表">系统用户列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 物业收费管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+<!--                    <li><a href="{:url('feeHouse/feehouseadd')}" title="增加收费">增加收费</a></li>-->
+                    <li><a href="{:url('feeHouse/undo')}" title="未收取费用">未收取费用</a></li>
+                    <li><a href="{:url('feeHouse/isdo')}" title="以收取费用">已收取费用</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 停车位收费<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('fee_parking/feeparkingadd')}" title="增加收费">新增停车费信息</a></li>
+                    <li><a href="{:url('fee_parking/undo')}" title="未收取费用">未收取费用</a></li>
+                    <li><a href="{:url('fee_parking/isdo')}" title="以收取费用">已收取费用</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 楼盘信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('building/buildinglist')}" title="楼盘列表">楼盘列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        <dt><i class="Hui-iconfont">&#xe62d;</i> 房屋信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+        <dd>
+            <ul>
+                <li><a href="{:url('house/houseadd')}" title="添加房屋">添加房屋</a></li>
+                <li><a href="{:url('house/issell')}" title="已售出房屋列表">已售出房屋列表</a></li>
+                <li><a href="{:url('house/unsell')}" title="未售出房屋列表">未售出房屋列表</a></li>
+            </ul>
+        </dd>
+        </dl>
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 停车场信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('parking/parkingadd')}" title="添加停车位">添加停车位</a></li>
+                    <li><a href="{:url('parking/issell')}" title="已租出停车位列表">已租出停车位列表</a></li>
+                    <li><a href="{:url('parking/unsell')}" title="未租出停车位列表">未租出停车位列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 住户信息管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('resident/residentlist')}" title="住户列表">住户列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 住户报修管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('repair/repairAdd')}" title="新增保修信息">新增保修信息</a></li>
+                    <li><a href="{:url('repair/unDeal')}" title="未完成列表">未完成列表</a></li>
+                    <li><a href="{:url('repair/Deal')}" title="已完成列表">已完成列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 住户投诉管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('complaint/complaintAdd')}" title="新增投诉">新增投诉</a></li>
+                    <li><a href="{:url('complaint/unDeal')}" title="未解决">未解决列表</a></li>
+                    <li><a href="{:url('complaint/Deal')}" title="已解决">已解决列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+</aside>
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+<!--/_menu 作为公共模版分离出去-->

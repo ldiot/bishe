@@ -1,0 +1,97 @@
+{extend name="public/base"/}
+
+{block name="body"}
+
+<div class="row">
+    <div class=" col-lg-12 col-sm-12">
+
+        <div class="pull-right"  style="margin-top: 20px;">
+             <a class="btn btn-primary openwin" w="800px" h="600px" href="{:url('admin/client/add')}"  >新增授权</a>
+         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+
+        <section class="panel">
+            <div class="panel-body">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+
+                        <th>ID</th>
+                        <th>客户名</th>
+                        <th>当前版本</th>
+                        <th>QQ</th>
+                        <th>手机号</th>
+                        <th>IP限制</th>
+                        <th>域名限制</th>
+                        <th>有效期</th>
+                         <td>状态</td>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {notempty name="list"}
+                    {volist name="list" id="item"}
+                    <tr>
+                        <td>{$item['id']}</td>
+                        <td>
+                              {$item['title']}
+                        </td>
+                        <td>{$item['cur_version']}</td>
+                        <td>
+                         {$item['qq']}
+                        </td>
+                        <td>
+                            {$item['mobile']}
+                        </td>
+                        <td>
+                          {if $item['ips']}
+                            <pre>{$item['ips']|switchtobr=###}</pre>
+                          {else/}
+                            -
+                            {/if}
+                        </td>
+                        <td>
+                            {if $item['domains']}
+                            {$item['domains']|switchtobr=###}
+                            {else/}
+                            -
+                            {/if}
+                        </td>
+                        <td>
+                            {$item['startdt']|datefmt="Y-m-d",###}到{$item['enddt']|datefmt="Y-m-d",###}
+                        </td>
+                        <td>
+                            {if $item['status']==1}
+                            <span class="label label-primary">可用</span>
+                            {else/}
+                            <span class="label label-danger">不可用</span>
+                            {/if}
+                        </td>
+                        <td>
+                            <a title="编辑授权" href="{:url('/admin/client/add?id='.$item['id'])}"  w="800px" h="600px" class="openwin">编辑</a>
+
+                            <a class="confirm ajax-get" title="删除" href="{:url('/admin/client/delete',array('id'=>$item['id']))}">删除</a>
+                        </td>
+                    </tr>
+                    {/volist}
+                    {else/}
+                    <td colspan="10" class="text-center"> 暂时还没有内容!</td>
+                    {/notempty}
+                    </tbody>
+                </table>
+                {$page}
+                <div class="alert alert-info ">
+                    <p>当前版本指：客户端的当前版本号，会自动上报</p>
+                    <p>授权时，若ip和域名都填写则是双重验证，若只填写一个则只验证一个</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+{/block}

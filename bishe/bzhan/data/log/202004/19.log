@@ -1,0 +1,144 @@
+---------------------------------------------------------------
+[ 2020-04-19T15:48:41+02:00 ] ::1 ::1 GET /dashboard/bishe/bzhan/admin/index/index
+[ info ] localhost/dashboard/bishe/bzhan/admin/index/index [运行时间：0.168206s][吞吐率：5.95req/s] [内存消耗：853.41kb] [文件加载：27]
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[D:\xampp\htdocs\dashboard\bishe\bzhan\application\common.php:289]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2020-04-19T21:51:47+08:00 ] ::1 ::1 GET /dashboard/bishe/bzhan/admin/index/index
+[ info ] localhost/dashboard/bishe/bzhan/admin/index/index [运行时间：0.391907s][吞吐率：2.55req/s] [内存消耗：2,251.82kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\dashboard\bishe\bzhan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.7.6; ___rl__test__cookies=1587190192078; Phpstorm-46186e46=5b71ea8f-25a4-4d14-acbb-5b8714b5cc7d; pgv_pvi=2527547392; Hm_lvt_080836300300be57b7f34f4b3e97d911=1586785779; PHPSESSID=q2mqfi774bfmqraouhkqno16d5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[D:\xampp\htdocs\dashboard\bishe\bzhan\core\library\think\db\Query.php:372]
+---------------------------------------------------------------
+[ 2020-04-19T21:54:04+08:00 ] ::1 ::1 GET /dashboard/bishe/bzhan/admin/index/index
+[ info ] localhost/dashboard/bishe/bzhan/admin/index/index [运行时间：0.473114s][吞吐率：2.11req/s] [内存消耗：2,595.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\dashboard\bishe\bzhan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.7.6; ___rl__test__cookies=1587190192078; Phpstorm-46186e46=5b71ea8f-25a4-4d14-acbb-5b8714b5cc7d; pgv_pvi=2527547392; Hm_lvt_080836300300be57b7f34f4b3e97d911=1586785779; PHPSESSID=q2mqfi774bfmqraouhkqno16d5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2020-04-19T21:54:04+08:00 ] ::1 ::1 GET /dashboard/bishe/bzhan/admin/login.html
+[ info ] localhost/dashboard/bishe/bzhan/admin/login.html [运行时间：0.503511s][吞吐率：1.99req/s] [内存消耗：2,565.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\xampp\htdocs\dashboard\bishe\bzhan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.7.6; ___rl__test__cookies=1587190192078; Phpstorm-46186e46=5b71ea8f-25a4-4d14-acbb-5b8714b5cc7d; pgv_pvi=2527547392; Hm_lvt_080836300300be57b7f34f4b3e97d911=1586785779; PHPSESSID=q2mqfi774bfmqraouhkqno16d5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+[ error ] [8]Trying to access array offset on value of type null[D:\xampp\htdocs\dashboard\bishe\bzhan\application\admin\controller\Base.php:55]
+---------------------------------------------------------------
+[ 2020-04-19T22:09:01+08:00 ] ::1 ::1 GET /dashboard/bishe/bzhan/index/index/ljj
+[ info ] localhost/dashboard/bishe/bzhan/index/index/ljj [运行时间：0.188350s][吞吐率：5.31req/s] [内存消耗：1,520.63kb] [文件加载：39]
+[ info ] [ LANG ] D:\xampp\htdocs\dashboard\bishe\bzhan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ljj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '___rl__test__cookies=1587190192078; Phpstorm-46186e46=5b71ea8f-25a4-4d14-acbb-5b8714b5cc7d; pgv_pvi=2527547392; Hm_lvt_080836300300be57b7f34f4b3e97d911=1586785779; PHPSESSID=q2mqfi774bfmqraouhkqno16d5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->ljj[ D:\xampp\htdocs\dashboard\bishe\bzhan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file

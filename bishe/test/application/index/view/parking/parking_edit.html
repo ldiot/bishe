@@ -1,0 +1,111 @@
+
+{extend name='public/base'/}
+{block name='header'}{/block}{//关掉头部}
+{block name='menu'}{/block}{//关掉菜单}
+{block name='seo'}
+    <title>{$title|default="标题"}</title>
+</head>
+<body>
+{/block}
+
+{block name='content'}
+<article class="cl pd-20">
+    <div style="text-align: center;line-height: 28px">星号<span class="c-red">*</span>为必填，无星号<span class="c-red">*</span>可不填</div>
+
+    <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>状态：</label>
+            <div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="status" size="1">
+					<option value="1" selected>已出租</option>
+					<option value="0">未出租</option>
+				</select>
+				</span> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>类型：</label>
+            <div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="type" size="1">
+					<option value="1" selected>地上停车位</option>
+					<option value="0">地下停车位</option>
+				</select>
+				</span> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>停车场：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="{$user_info.parking_lot}" placeholder="停车场" id="parking_lot" name="parking_lot">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>停车位编号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="{$user_info.parking_lot_id}" placeholder="停车位编号" id="parking_lot_id" name="parking_lot_id">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">业主编号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="number" class="input-text" value="{$user_info.resident_id}" placeholder="业主编号" id="resident_id" name="resident_id">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">车牌号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="{$user_info.plate_number}" placeholder="车牌号" id="plate_number" name="plate_number">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">备注：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="{$user_info.remark}" placeholder="备注" id="remark" name="remark">
+            </div>
+        </div>
+<!--        将当前记录的id做为隐藏域发送到服务器-->
+        <input type="hidden" value="{$user_info.id}" name="id">
+
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input id="submit" class="btn btn-primary radius disabled" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</article>
+{/block}
+
+{block name='js'}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //防止用户无更新提交，只有表中数据有变化时才允许提交
+        $("form").children().change(function () {
+            $("#submit").removeClass('disabled');
+        });
+
+        $("#submit").on("click",function (event) {
+            $.ajax({
+                type:"POST",
+                url:"{:url('parking/editParking')}",
+                data:$("#form-admin-add").serialize(),//将大量数据序列化后提交效率比较高
+                dataType:"json",
+                success:function (data) {
+                    // alert(data);
+                    // alert("data:"+data.name+'/'+data.password+'/'+data.status+'/'+data.email+'/'+data.role+'/'+data.id);
+
+                    if(data.status==1){
+                        alert(data.message);
+                    }else{
+                        alert(data.message);
+                    }
+                }
+            });
+        })
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+</body>
+</html>

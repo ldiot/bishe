@@ -1,0 +1,3077 @@
+---------------------------------------------------------------
+[ 2018-07-03T16:38:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] auth.test.com/ [运行时间：0.416024s][吞吐率：2.40req/s] [内存消耗：1,278.49kb] [文件加载：42]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/index\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:38:30+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] auth.test.com/favicon.ico [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：846.37kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:38:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] auth.test.com/admin [运行时间：0.377021s][吞吐率：2.65req/s] [内存消耗：1,802.06kb] [文件加载：49]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:38:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login.html
+[ info ] auth.test.com/admin/login.html [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：1,791.70kb] [文件加载：48]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:38:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ info ] auth.test.com/admin/index/verify.html [运行时间：0.294017s][吞吐率：3.40req/s] [内存消耗：1,787.07kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:38:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.258015s][吞吐率：3.88req/s] [内存消耗：2,099.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'wpfh',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:38:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.6926565156457518
+[ info ] auth.test.com/admin/index/verify.html?0.6926565156457518 [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：1,788.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_6926565156457518' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:39+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.127008s][吞吐率：7.87req/s] [内存消耗：2,099.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3r4[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'e57y',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.6029518463394132
+[ info ] auth.test.com/admin/index/verify.html?0.6029518463394132 [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：1,788.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_6029518463394132' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.091006s][吞吐率：10.99req/s] [内存消耗：1,794.67kb] [文件加载：49]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3r4[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'e57y',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.24488477658873653
+[ info ] auth.test.com/admin/index/verify.html?0.24488477658873653 [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,788.28kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_24488477658873653' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:45+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：2,099.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3r4[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'djq7',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.8109598536944791
+[ info ] auth.test.com/admin/index/verify.html?0.8109598536944791 [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：1,788.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_8109598536944791' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,099.04kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3r4',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'nwej',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.5091133632803928
+[ info ] auth.test.com/admin/index/verify.html?0.5091133632803928 [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：1,788.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_5091133632803928' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:42:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.4604889443499931
+[ info ] auth.test.com/admin/index/verify.html?0.4604889443499931 [运行时间：0.171010s][吞吐率：5.85req/s] [内存消耗：1,788.28kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_4604889443499931' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:42:37+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,099.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3r4[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'hhuk',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:42:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.4222988521538922
+[ info ] auth.test.com/admin/index/verify.html?0.4222988521538922 [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：1,788.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_4222988521538922' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.6469022824439064
+[ info ] auth.test.com/admin/index/verify.html?0.6469022824439064 [运行时间：0.178011s][吞吐率：5.62req/s] [内存消耗：1,788.28kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_6469022824439064' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:44:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：2,099.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '87',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'cqpb',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:44:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?0.6853320389197177
+[ info ] auth.test.com/admin/index/verify.html?0.6853320389197177 [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：1,788.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  '0_6853320389197177' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:45:31+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] auth.test.com/admin/login [运行时间：0.127008s][吞吐率：7.87req/s] [内存消耗：2,144.88kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'q1w2e3r4[-]=\\',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'tamp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:45:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：1.029059s][吞吐率：0.97req/s] [内存消耗：1,768.97kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:45:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.165010s][吞吐率：6.06req/s] [内存消耗：1,749.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+---------------------------------------------------------------
+[ 2018-07-03T16:45:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.314018s][吞吐率：3.18req/s] [内存消耗：1,768.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:45:36+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：1,749.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+---------------------------------------------------------------
+[ 2018-07-03T16:45:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,100.22kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:45:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.254015s][吞吐率：3.94req/s] [内存消耗：1,768.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:45:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.146008s][吞吐率：6.85req/s] [内存消耗：1,749.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+---------------------------------------------------------------
+[ 2018-07-03T16:45:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.273016s][吞吐率：3.66req/s] [内存消耗：1,769.04kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:45:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：1,749.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+---------------------------------------------------------------
+[ 2018-07-03T16:46:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.221012s][吞吐率：4.52req/s] [内存消耗：1,768.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:46:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：1,749.45kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://shouquan.test.com/api/server/getNewVersion
+[ log ] <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /api/server/getNewVersion was not found on this server.</p>
+</body></html>
+
+---------------------------------------------------------------
+[ 2018-07-03T16:46:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.164010s][吞吐率：6.10req/s] [内存消耗：2,100.22kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.209012s][吞吐率：4.78req/s] [内存消耗：2,006.81kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '335',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'config' => 
+  array (
+    'web_site_title' => '智云产品授权与更新系统',
+    'auth_server_domain' => 'auth.test.com',
+    'auth_client_id' => '2',
+    'auth_client_code' => 'clienttestcom',
+    'auth_zip_dir' => 'upgrade/',
+    'web_site_url' => 'http://shouquan.test.com',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.176010s][吞吐率：5.68req/s] [内存消耗：2,101.01kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] auth.test.com/admin/client/index.html [运行时间：0.245014s][吞吐率：4.08req/s] [内存消耗：2,084.41kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：1,689.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------f6d8b81850d40484',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '2',
+  'cv' => '1.4',
+  'timestamp' => '1530607585',
+  'sign' => '4cd406c9c6248a54b39c0fac3ee83b79',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：2.762158s][吞吐率：0.36req/s] [内存消耗：1,768.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1002,"errmsg":"\u76d7\u7248\uff1a\u5ba2\u6237\u7aef\u4e0d\u5b58\u5728","data":[]}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:46:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.237013s][吞吐率：4.22req/s] [内存消耗：2,100.20kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：2,100.20kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.163009s][吞吐率：6.13req/s] [内存消耗：2,006.80kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '335',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'config' => 
+  array (
+    'web_site_title' => '智云产品授权与更新系统',
+    'auth_server_domain' => 'auth.test.com',
+    'auth_client_id' => '1',
+    'auth_client_code' => 'clienttestcom',
+    'auth_zip_dir' => 'upgrade/',
+    'web_site_url' => 'http://shouquan.test.com',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.162010s][吞吐率：6.17req/s] [内存消耗：2,101.01kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,691.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------16bf11ccd13b159c',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607598',
+  'sign' => 'c83d0fe530e63fba0d4bcf09c407d1fd',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.886050s][吞吐率：1.13req/s] [内存消耗：1,768.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":2002,"errmsg":"\u76d7\u7248\uff1a\u57df\u540d\u672a\u6388\u6743","data":[]}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:46:39+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] auth.test.com/help [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,180.52kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：1,691.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------3522f20f1c361e55',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607599',
+  'sign' => 'f91fa34b71288981be5c0da3553f872b',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:39+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.245014s][吞吐率：4.08req/s] [内存消耗：1,749.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":2002,"errmsg":"\u76d7\u7248\uff1a\u57df\u540d\u672a\u6388\u6743","data":[]}
+---------------------------------------------------------------
+[ 2018-07-03T16:46:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] auth.test.com/admin/client/index.html [运行时间：0.176010s][吞吐率：5.68req/s] [内存消耗：1,943.43kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/add?id=1.html
+[ info ] auth.test.com/admin/client/add?id=1.html [运行时间：0.264015s][吞吐率：3.79req/s] [内存消耗：2,059.27kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1.html',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->add[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\public\popedit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'info',
+  6 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\datetime.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\datetime.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:03+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/client/add?id=1.html
+[ info ] auth.test.com/admin/client/add?id=1.html [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,001.17kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/add?id=1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '271',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'product_id' => '2',
+  'title' => '智云演示客户端',
+  'qq' => '304455977',
+  'mobile' => '13577678822',
+  'address' => 'fdsafa',
+  'remark' => '32',
+  'auth_code' => 'clienttestcom',
+  'ips' => '',
+  'domains' => 'auth.test.com',
+  'startdt' => '1990-12-28 11:55:00',
+  'enddt' => '2019-11-28 10:50:00',
+  'status' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->add[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] auth.test.com/admin/client/index.html [运行时间：0.157009s][吞吐率：6.37req/s] [内存消耗：1,943.48kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：1,730.67kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------c352df4087e42309',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607626',
+  'sign' => '4b2babd364d4ffe96b3d37498a280835',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.504028s][吞吐率：1.98req/s] [内存消耗：1,768.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:47:06+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] auth.test.com/help [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,180.52kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.213013s][吞吐率：4.69req/s] [内存消耗：1,730.67kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------b1d132c1bd3bf391',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607627',
+  'sign' => '86bf1cb2f165f0b232f5809743f19ba2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:07+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.350020s][吞吐率：2.86req/s] [内存消耗：1,749.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+---------------------------------------------------------------
+[ 2018-07-03T16:47:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/clear.html
+[ info ] auth.test.com/admin/index/clear.html [运行时间：0.234013s][吞吐率：4.27req/s] [内存消耗：1,950.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->clear[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\public\edit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] auth.test.com/admin/config/group.html [运行时间：0.166009s][吞吐率：6.02req/s] [内存消耗：2,100.20kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/clear.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:47:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] auth.test.com/admin/client/index.html [运行时间：0.172010s][吞吐率：5.81req/s] [内存消耗：1,943.42kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:48:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：1,730.67kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------903e004eb042f101',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607685',
+  'sign' => '59a7fa16d334a85ddb90b7b530cf7254',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:48:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：0.444025s][吞吐率：2.25req/s] [内存消耗：1,768.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T16:48:05+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] auth.test.com/help [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,180.52kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:48:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.241014s][吞吐率：4.15req/s] [内存消耗：1,730.67kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------6f1a1049f7c6d86f',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607685',
+  'sign' => '59a7fa16d334a85ddb90b7b530cf7254',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:48:06+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.379022s][吞吐率：2.64req/s] [内存消耗：1,749.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+---------------------------------------------------------------
+[ 2018-07-03T16:48:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/upgrade
+[ info ] auth.test.com/api/server/upgrade [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：1,734.40kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------d58da9940b0af385',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530607695',
+  'sign' => '608e9b637c895f3b2a6a5832d2a83e9e',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->upgrade[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T16:48:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/upgrade
+[ info ] auth.test.com/admin/index/upgrade [运行时间：0.240014s][吞吐率：4.17req/s] [内存消耗：1,749.77kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->upgrade[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/upgrade
+[ log ] {"errno":3001,"errmsg":"\u5347\u7ea7\u5931\u8d25\uff01\u5f53\u524d\u7248\u672c\u53f7\u672a\u627e\u5230","data":[]}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\upgrade.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'upinfo',
+  6 => 'errmsg',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T17:02:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/clear.html
+[ info ] auth.test.com/admin/index/clear.html [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：1,814.78kb] [文件加载：50]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->clear[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\public\edit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T17:02:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：1,730.67kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------bf6ded037dd801d8',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530608558',
+  'sign' => 'f783d66e0af6d07ca5818bc45da96f84',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T17:02:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] auth.test.com/admin/index/index.html [运行时间：2.076119s][吞吐率：0.48req/s] [内存消耗：1,768.94kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/clear.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-07-03T17:02:40+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] auth.test.com/help [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,180.52kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T17:02:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] auth.test.com/api/server/getNewVersion [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：1,730.67kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------0d4f5e73c79a587e',
+  'expect' => '100-continue',
+  'content-length' => '567',
+  'accept' => '*/*',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'auth.test.com',
+  'c' => '1',
+  'cv' => '1.4',
+  'timestamp' => '1530608560',
+  'sign' => '2efe9528daf736d699581ea20f0057cf',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-07-03T17:02:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] auth.test.com/admin/index/getNewVersion [运行时间：0.279016s][吞吐率：3.58req/s] [内存消耗：1,749.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; PHPSESSID=jbhnisqlnenquf890vd0ii0v70',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://auth.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'auth.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：http://auth.test.com/api/server/getNewVersion
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}

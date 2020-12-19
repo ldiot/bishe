@@ -1,0 +1,135 @@
+
+{extend name="public/base" /}
+
+{block name="seo"}
+<title>{$title|default="页面标题"}</title>
+</head>
+<body>
+{/block}
+
+
+{block name="content"}
+<section class="Hui-article-box">
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
+        <span class="c-gray en">&gt;</span>
+        住户保修管理
+        <span class="c-gray en">&gt;</span>
+        新增报修信息 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="清空" ><i class="Hui-iconfont">&#xe68f;</i></a> </nav>
+    <div class="Hui-article">
+        <article class="cl pd-20">
+            <div style="text-align: center;line-height: 28px">星号<span class="c-red">*</span>为必填，无星号<span class="c-red">*</span>可不填</div>
+
+            <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>房屋编号：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" autocomplete="off" value="" placeholder="房屋编号" id="house_id" name="house_id">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>报修内容：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" value="" placeholder="报修内容" id="content" name="content">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3">报修地点：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" value="" placeholder="报修地点" id="place" name="place">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>报修人：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" value="" placeholder="报修人" id="report_name" name="report_name">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>报修人电话：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="tel" class="input-text" placeholder="报修人电话" name="report_tel" id="report_tel">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>维修状态：</label>
+                    <div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="status" size="1">
+                    <option value="2">已完成</option>
+					<option value="1">已派出</option>
+					<option value="0" selected>已受理</option>
+				</select>
+				</span> </div>
+                </div>
+
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3">维修人：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" value="" placeholder="维修人" id="repairman_name" name="repairman_name">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3">维修人电话：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="tel" class="input-text" placeholder="维修人电话" name="repairman_tel" id="repairman_tel">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3">维修完成时间：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="date" class="input-text" value="" placeholder="维修完成时间" id="finish_time" name="finish_time">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3">备注：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" autocomplete="off" value="" placeholder="备注" id="remark" name="remark">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                        <input id="submit" class="btn btn-primary radius disabled" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+                    </div>
+                </div>
+            </form>
+        </article>
+    </div>
+</section>
+{/block}
+
+
+
+
+{block name='js'}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //防止用户无更新提交，只有表中数据有变化时才允许提交
+        $("form").children().change(function () {
+            $("#submit").removeClass('disabled');
+        });
+
+        $("#submit").on("click",function (event) {
+            $.ajax({
+                type:"POST",
+                url:"{:url('repair/addRepair')}",
+                data:$("#form-admin-add").serialize(),
+                dataType:"json",
+                success:function (data) {
+                    if(data.status==1){
+                        alert(data.message);
+                    }else{
+                        alert(data.message);
+                    }
+                }
+            });
+        })
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+
+</body>
+</html>

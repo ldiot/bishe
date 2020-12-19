@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2018-03-14T10:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] shouquan.test.com/help [运行时间：0.247014s][吞吐率：4.05req/s] [内存消耗：1,182.04kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://auth.zhiyunzhushou.com/admin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file

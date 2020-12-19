@@ -1,0 +1,104 @@
+
+{extend name="public/base" /}
+
+{block name="seo"}
+<title>{$title|default="页面标题"}</title>
+</head>
+<body>
+{/block}
+
+
+{block name="content"}
+<section class="Hui-article-box">
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
+        <span class="c-gray en">&gt;</span>
+        物业收费管理
+        <span class="c-gray en">&gt;</span>
+        {$title} <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="清空" ><i class="Hui-iconfont">&#xe68f;</i></a> </nav>
+    <div class="Hui-article">
+        <article class="cl pd-20">
+            <div style="text-align: center;line-height: 28px">星号<span class="c-red">*</span>为必填，无星号<span class="c-red">*</span>可不填</div>
+            <div style="text-align: center;line-height: 28px">类型为物业费时，收费详情包括收费年度和计算方式，例：2019年度物业费，普通住宅0.35元每月每平米</div>
+
+            <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收费类型：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text disabled readonly" readonly autocomplete="off" value="物业费">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>楼盘类型：</label>
+                    <div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="building_type" size="1">
+					<option value="1" selected>电梯房</option>
+					<option value="0">普通房</option>
+				</select>
+				</span> </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收费详情：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" autocomplete="off" value="" placeholder="" id="name" name="name">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>每平方米收费金额：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="text" class="input-text" autocomplete="off" value="" placeholder="" id="money" name="money">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>生成日期：</label>
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="date" class="input-text" autocomplete="off" value="" placeholder="" id="start_time" name="start_time">
+                    </div>
+                </div>
+                <div class="row cl">
+                    <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                        <input id="submit" class="btn btn-primary radius disabled" type="submit" value="&nbsp;&nbsp;生成&nbsp;&nbsp;">
+                    </div>
+                </div>
+            </form>
+        </article>
+    </div>
+</section>
+{/block}
+
+
+
+
+{block name='js'}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //防止用户无更新提交，只有表中数据有变化时才允许提交
+        $("form").children().change(function () {
+            $("#submit").removeClass('disabled');
+        });
+
+        $("#submit").on("click",function (event) {
+            $.ajax({
+                type:"POST",
+                url:"{:url('feeHouse/addFeehouse2')}",
+                data:$("#form-admin-add").serialize(),
+                dataType:"json",
+                success:function (data) {
+                    if(data.status==1){
+                        alert(data.message);
+                    }else{
+                        alert(data.message);
+                    }
+                }
+            });
+        })
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+
+</body>
+</html>

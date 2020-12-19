@@ -1,0 +1,2441 @@
+---------------------------------------------------------------
+[ 2018-03-01T15:24:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] shouquan.test.com/admin [运行时间：8.049460s][吞吐率：0.12req/s] [内存消耗：2,131.28kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:24:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login.html
+[ info ] shouquan.test.com/admin/login.html [运行时间：2.337134s][吞吐率：0.43req/s] [内存消耗：1,934.81kb] [文件加载：50]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:24:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ info ] shouquan.test.com/admin/index/verify.html [运行时间：2.323133s][吞吐率：0.43req/s] [内存消耗：1,809.88kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] shouquan.test.com/favicon.ico [运行时间：0.384022s][吞吐率：2.60req/s] [内存消耗：860.41kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login.html
+[ info ] shouquan.test.com/admin/login.html [运行时间：0.809047s][吞吐率：1.24req/s] [内存消耗：1,815.56kb] [文件加载：48]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ info ] shouquan.test.com/admin/index/verify.html [运行时间：0.181010s][吞吐率：5.52req/s] [内存消耗：1,809.88kb] [文件加载：47]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ E:\devspace\shouquan\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] shouquan.test.com/admin/login [运行时间：0.298017s][吞吐率：3.36req/s] [内存消耗：2,187.90kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'loginsafecode' => 'zhiyunzhushou.com',
+  'verify' => 'cn2z',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] shouquan.test.com/api/server/getNewVersion [运行时间：0.162009s][吞吐率：6.17req/s] [内存消耗：1,719.26kb] [文件加载：44]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------be97b1fd0ded8958',
+  'expect' => '100-continue',
+  'content-length' => '571',
+  'accept' => '*/*',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'shouquan.test.com',
+  'c' => '1',
+  'cv' => '1.1',
+  'timestamp' => '1519889362',
+  'sign' => 'f7a6aa72f6b32b7ed843326c510fad6f',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] shouquan.test.com/admin/index/index.html [运行时间：3.870221s][吞吐率：0.26req/s] [内存消耗：1,807.52kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：
+[ log ] {"errno":5001,"errmsg":"\u76d7\u7248\uff1a\u7b7e\u540d\u9519\u8bef","data":[]}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-03-01T15:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] shouquan.test.com/help [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,182.30kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] shouquan.test.com/api/server/getNewVersion [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,719.23kb] [文件加载：44]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------3c0add7b92d67aad',
+  'expect' => '100-continue',
+  'content-length' => '571',
+  'accept' => '*/*',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'shouquan.test.com',
+  'c' => '1',
+  'cv' => '1.1',
+  'timestamp' => '1519889366',
+  'sign' => '7664287f0425ed59e2e6d5fe5604788d',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] shouquan.test.com/admin/index/getNewVersion [运行时间：0.204012s][吞吐率：4.90req/s] [内存消耗：1,776.34kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：
+[ log ] {"errno":5001,"errmsg":"\u76d7\u7248\uff1a\u7b7e\u540d\u9519\u8bef","data":[]}
+---------------------------------------------------------------
+[ 2018-03-01T15:29:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] shouquan.test.com/admin/config/group.html [运行时间：0.205012s][吞吐率：4.88req/s] [内存消耗：2,277.69kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/index.html
+[ info ] shouquan.test.com/admin/product/index.html [运行时间：0.671038s][吞吐率：1.49req/s] [内存消耗：2,061.99kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->index[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\product\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/index.html
+[ info ] shouquan.test.com/admin/product/index.html [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：1,923.37kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->index[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\product\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/img/loading.gif
+[ info ] shouquan.test.com/public/img/loading.gif [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：860.59kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/public/admin/css/bootstrap-editable.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:29:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/img/clear.png
+[ info ] shouquan.test.com/public/img/clear.png [运行时间：0.126008s][吞吐率：7.94req/s] [内存消耗：860.56kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => 'clear.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/public/admin/css/bootstrap-editable.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:30:06+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/product/editable.html
+[ info ] shouquan.test.com/admin/product/editable.html [运行时间：0.262015s][吞吐率：3.82req/s] [内存消耗：1,766.58kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'editable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '103',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'title',
+  'value' => '智云授权与更新系统',
+  'pk' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->editable[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:30:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/product/editable.html
+[ info ] shouquan.test.com/admin/product/editable.html [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：1,767.08kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'editable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '225',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'description',
+  'value' => '对公司项目进行授权与代码自更新功能。联系qq:
+304455977',
+  'pk' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->editable[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:30:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/verlist.html
+[ info ] shouquan.test.com/admin/product/verlist.html [运行时间：0.511029s][吞吐率：1.96req/s] [内存消耗：2,369.77kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'verlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->verlist[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\product\verlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/img/loading.gif
+[ info ] shouquan.test.com/public/img/loading.gif [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：860.59kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/public/admin/css/bootstrap-editable.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:30:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/img/clear.png
+[ info ] shouquan.test.com/public/img/clear.png [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：860.56kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => 'clear.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/public/admin/css/bootstrap-editable.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:30:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/product/editvable.html
+[ info ] shouquan.test.com/admin/product/editvable.html [运行时间：0.181010s][吞吐率：5.52req/s] [内存消耗：1,767.69kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'editvable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/verlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'vernum',
+  'value' => '1.1',
+  'pk' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->editvable[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:31:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/product/editvable.html
+[ info ] shouquan.test.com/admin/product/editvable.html [运行时间：0.393023s][吞吐率：2.54req/s] [内存消耗：1,768.00kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'editvable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/verlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '76',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'upzipname',
+  'value' => 'http://shouquan.test.com/upzip/1.0.1.zip',
+  'pk' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->editvable[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:32:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/product/editvable.html
+[ info ] shouquan.test.com/admin/product/editvable.html [运行时间：0.176010s][吞吐率：5.68req/s] [内存消耗：1,768.02kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'editvable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/verlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '159',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'upcontent',
+  'value' => '更新了客户端sdk
+后台逻辑代码优化 ',
+  'pk' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Product->editvable[ E:\devspace\shouquan\application\admin\controller\Product.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:32:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] shouquan.test.com/admin/client/index.html [运行时间：0.214012s][吞吐率：4.67req/s] [内存消耗：2,074.42kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/product/verlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:32:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/add?id=1.html
+[ info ] shouquan.test.com/admin/client/add?id=1.html [运行时间：0.296017s][吞吐率：3.38req/s] [内存消耗：2,214.87kb] [文件加载：55]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1.html',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->add[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\public\popedit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'info',
+  6 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\datetime.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\datetime.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:33:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/client/add?id=1.html
+[ info ] shouquan.test.com/admin/client/add?id=1.html [运行时间：0.295017s][吞吐率：3.39req/s] [内存消耗：2,080.05kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/add?id=1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '276',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'product_id' => '2',
+  'title' => '智云演示客户端',
+  'qq' => '304455977',
+  'mobile' => '13577678822',
+  'address' => 'fdsafa',
+  'remark' => '32',
+  'auth_code' => 'shouuantestcom',
+  'ips' => '',
+  'domains' => 'shouquan.test.com',
+  'startdt' => '1990-12-28 11:55:00',
+  'enddt' => '2019-11-28 10:50:00',
+  'status' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->add[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:33:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] shouquan.test.com/admin/client/index.html [运行时间：0.170010s][吞吐率：5.88req/s] [内存消耗：1,935.17kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:33:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/add?id=1.html
+[ info ] shouquan.test.com/admin/client/add?id=1.html [运行时间：0.217012s][吞吐率：4.61req/s] [内存消耗：2,085.04kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1.html',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->add[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\public\popedit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'info',
+  6 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\datetime.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\datetime.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:33:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/client/add?id=1.html
+[ info ] shouquan.test.com/admin/client/add?id=1.html [运行时间：0.188011s][吞吐率：5.32req/s] [内存消耗：2,080.06kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/add?id=1.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '275',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'product_id' => '2',
+  'title' => '智云演示客户端',
+  'qq' => '304455977',
+  'mobile' => '13577678822',
+  'address' => 'fdsafa',
+  'remark' => '32',
+  'auth_code' => 'clienttestcom',
+  'ips' => '',
+  'domains' => 'shouquan.test.com',
+  'startdt' => '1990-12-28 11:55:00',
+  'enddt' => '2019-11-28 10:50:00',
+  'status' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->add[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:33:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/index.html
+[ info ] shouquan.test.com/admin/client/index.html [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：1,935.17kb] [文件加载：51]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->index[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:34:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/noauthlist.html
+[ info ] shouquan.test.com/admin/client/noauthlist.html [运行时间：0.335019s][吞吐率：2.98req/s] [内存消耗：2,366.78kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'noauthlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->noauthlist[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\noauthlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:35:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.420024s][吞吐率：2.38req/s] [内存消耗：2,363.70kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/noauthlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.225013s][吞吐率：4.44req/s] [内存消耗：2,221.84kb] [文件加载：56]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.356021s][吞吐率：2.81req/s] [内存消耗：2,222.88kb] [文件加载：56]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:39:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.290017s][吞吐率：3.45req/s] [内存消耗：2,357.88kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:39:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.239013s][吞吐率：4.18req/s] [内存消耗：2,357.88kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:39:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.244014s][吞吐率：4.10req/s] [内存消耗：2,357.92kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.253014s][吞吐率：3.95req/s] [内存消耗：2,357.98kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:40:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] shouquan.test.com/api/server/getNewVersion [运行时间：0.246015s][吞吐率：4.06req/s] [内存消耗：1,758.33kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------976da242fb6d221a',
+  'expect' => '100-continue',
+  'content-length' => '571',
+  'accept' => '*/*',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'shouquan.test.com',
+  'c' => '1',
+  'cv' => '1.1',
+  'timestamp' => '1519889998',
+  'sign' => '71c9ada5ff84402e52b3331a7a0f2318',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:40:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] shouquan.test.com/admin/index/index.html [运行时间：4.125236s][吞吐率：0.24req/s] [内存消耗：1,807.73kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'prdnum',
+  6 => 'prdcltnum',
+  7 => 'prdnoauthnum',
+  8 => 'adminnum',
+) ]
+---------------------------------------------------------------
+[ 2018-03-01T15:40:02+08:00 ] 127.0.0.1 127.0.0.1 GET /help
+[ info ] shouquan.test.com/help [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,182.30kb] [文件加载：40]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getHelp',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->getHelp[ E:\devspace\shouquan\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:40:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/server/getNewVersion
+[ info ] shouquan.test.com/api/server/getNewVersion [运行时间：0.179010s][吞吐率：5.59req/s] [内存消耗：1,758.30kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'server',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------1a3a1b3ed5267980',
+  'expect' => '100-continue',
+  'content-length' => '571',
+  'accept' => '*/*',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'd' => 'shouquan.test.com',
+  'c' => '1',
+  'cv' => '1.1',
+  'timestamp' => '1519890002',
+  'sign' => '16ffbc0d6d12dd00e70f76de3e42230f',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Server->getNewVersion[ E:\devspace\shouquan\application\api\controller\Server.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:40:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/getNewVersion
+[ info ] shouquan.test.com/admin/index/getNewVersion [运行时间：0.322018s][吞吐率：3.11req/s] [内存消耗：1,776.49kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'getNewVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->getNewVersion[ E:\devspace\shouquan\application\admin\controller\Index.php ]
+[ log ] 服务端返回数据：
+[ log ] {"errno":1000,"errmsg":"","data":{"version":"1.1","upcontent":"\u66f4\u65b0\u4e86\u5ba2\u6237\u7aefsdk\n\u540e\u53f0\u903b\u8f91\u4ee3\u7801\u4f18\u5316 "}}
+---------------------------------------------------------------
+[ 2018-03-01T15:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/code.html
+[ info ] shouquan.test.com/admin/client/code.html [运行时间：0.172010s][吞吐率：5.81req/s] [内存消耗：1,959.91kb] [文件加载：50]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'code',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->code[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\code.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:40:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] shouquan.test.com/admin/menu/index.html [运行时间：0.185011s][吞吐率：5.41req/s] [内存消耗：2,123.12kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/code.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Menu->index[ E:\devspace\shouquan\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\menu\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:40:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] shouquan.test.com/admin/menu/index.html [运行时间：0.145009s][吞吐率：6.90req/s] [内存消耗：2,123.41kb] [文件加载：52]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/menu/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Menu->index[ E:\devspace\shouquan\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\menu\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:41:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/img/loading.gif
+[ info ] shouquan.test.com/public/img/loading.gif [运行时间：0.181011s][吞吐率：5.52req/s] [内存消耗：860.79kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/public/admin/css/bootstrap-editable.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:41:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/img/clear.png
+[ info ] shouquan.test.com/public/img/clear.png [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：860.77kb] [文件加载：30]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => 'clear.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/public/admin/css/bootstrap-editable.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:41:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/menu/editable.html
+[ info ] shouquan.test.com/admin/menu/editable.html [运行时间：0.165009s][吞吐率：6.06req/s] [内存消耗：1,760.34kb] [文件加载：46]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'editable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shouquan.test.com',
+  'accept' => '*/*',
+  'content-length' => '95',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'title',
+  'value' => '客户端实例代码包',
+  'pk' => '77',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Menu->editable[ E:\devspace\shouquan\application\admin\controller\Menu.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:41:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/uplog.html
+[ info ] shouquan.test.com/admin/client/uplog.html [运行时间：0.249015s][吞吐率：4.02req/s] [内存消耗：2,358.19kb] [文件加载：58]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'uplog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/menu/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->uplog[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\uplog.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'page',
+  7 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ E:\devspace\shouquan\application\common\widget\Form.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T15:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/client/code.html
+[ info ] shouquan.test.com/admin/client/code.html [运行时间：0.159010s][吞吐率：6.29req/s] [内存消耗：1,960.30kb] [文件加载：50]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'client',
+    2 => 'code',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/client/uplog.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Client->code[ E:\devspace\shouquan\application\admin\controller\Client.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\client\code.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-03-01T16:44:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] shouquan.test.com/admin/config/group.html [运行时间：10.635609s][吞吐率：0.09req/s] [内存消耗：2,278.22kb] [文件加载：53]
+[ info ] [ LANG ] E:\devspace\shouquan\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1170922496; UM_distinctid=15fa4ed47803b5-0c2fdf8c6949b-33405d63-13c680-15fa4ed4781368; PHPSESSID=fgvdq4e0riovvuidsh5l9p5m65; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shouquan.test.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shouquan.test.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->group[ E:\devspace\shouquan\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] E:\devspace\shouquan/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+  5 => 'list',
+  6 => 'id',
+) ]
+[ info ] [ LOG ] INIT file

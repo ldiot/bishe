@@ -1,0 +1,124 @@
+
+{extend name='public/base'/}
+{block name='header'}{/block}{//关掉头部}
+{block name='menu'}{/block}{//关掉菜单}
+{block name='seo'}
+    <title>{$title|default="标题"}</title>
+</head>
+<body>
+{/block}
+
+{block name='content'}
+<article class="cl pd-20">
+    <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>房间编号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text disabled readonly" readonly autocomplete="off" value="{$user_info.id}" placeholder="房间编号" id="id" name="id">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>楼盘编号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text disabled readonly" readonly autocomplete="off" value="{$user_info.building_id}" placeholder="楼盘编号" id="building_id" name="building_id">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>房屋位置：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text disabled readonly" readonly value="{$user_info.place}" placeholder="房屋位置" id="place" name="place">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>单元号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text  disabled readonly" readonly value="{$user_info.unit}" placeholder="单元号" id="unit" name="unit">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>门牌号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text disabled readonly" readonly value="{$user_info.doorplate}" placeholder="门牌号" id="doorplate" name="doorplate">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>面积：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text  disabled readonly" readonly value="{$user_info.area}" placeholder="面积" id="area" name="area">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>房屋状态：</label>
+            <div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="status" size="1">
+					<option value="1" selected>已出售</option>
+					<option value="0">未出售</option>
+				</select>
+				</span> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>业主编号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="{$user_info.resident_id}" placeholder="业主编号" id="resident_id" name="resident_id">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>入住时间：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="date" class="input-text" value="{$user_info.check_in_time}" placeholder="入住时间" id="check_in_time" name="check_in_time">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>备注：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="{$user_info.remark}" placeholder="备注" id="remark" name="remark">
+            </div>
+        </div>
+<!--        将当前记录的id做为隐藏域发送到服务器-->
+        <input type="hidden" value="{$user_info.id}" name="id">
+
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input id="submit" class="btn btn-primary radius disabled" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</article>
+{/block}
+
+{block name='js'}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //防止用户无更新提交，只有表中数据有变化时才允许提交
+        $("form").children().change(function () {
+            $("#submit").removeClass('disabled');
+        });
+
+        $("#submit").on("click",function (event) {
+            $.ajax({
+                type:"POST",
+                url:"{:url('house/editHouse')}",
+                data:$("#form-admin-add").serialize(),//将大量数据序列化后提交效率比较高
+                dataType:"json",
+                success:function (data) {
+                    // alert(data);
+                    // alert("data:"+data.name+'/'+data.password+'/'+data.status+'/'+data.email+'/'+data.role+'/'+data.id);
+
+                    if(data.status==1){
+                        alert(data.message);
+                    }else{
+                        alert(data.message);
+                    }
+                }
+            });
+        })
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+</body>
+</html>

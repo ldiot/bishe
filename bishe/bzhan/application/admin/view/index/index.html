@@ -1,0 +1,111 @@
+{extend name="public/base"/}
+{block name="body"}
+
+<div class="row">
+	<div class="col-lg-12">
+		<section class="panel">
+
+			<div class="panel-body">
+
+
+				<div class="row">
+
+
+					<div class="col-md-3">
+						<div class="sm-st clearfix">
+							<span class="sm-st-icon st-blue"><i class="icon  icon-reorder"></i></span>
+							<div class="sm-st-info">
+								<span>{$prdnum}</span>
+								产品总数
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="sm-st clearfix">
+							<span class="sm-st-icon st-violet"><i class="icon icon-ok"></i></span>
+							<div class="sm-st-info">
+								<span>{$prdcltnum}</span>
+								授权客户端
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="sm-st clearfix">
+							<span class="sm-st-icon st-red"><i class="icon  icon-remove"></i></span>
+							<div class="sm-st-info">
+								<span>{$prdnoauthnum}</span>
+								盗版客户端
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="sm-st clearfix">
+							<span class="sm-st-icon st-green"><i class="icon icon-tasks"></i></span>
+							<div class="sm-st-info">
+								<span>{$adminnum}</span>
+								后台管理人员
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+
+ 					<div class="col-md-12 col-sm-12 col-lg-12">
+						<section class="panel">
+							<header class="panel-heading">
+								本系统信息
+							</header>
+							<div class="panel-body" id="noti-box">
+ 								<table class="table">
+									<tr>
+										<th>当前版本</th>
+										<td>{:PRJ_VERSION}</td>
+									</tr>
+									 <script src="http://{:config('auth_server_domain')}/help"></script>
+									<tr>
+										<th>最新版</th>
+										<td>
+											<p id="ver_numbox" style="color: #e02e24"></p>
+											<p id="ver_contentbox"></p>
+											<p>
+ 												<a style="display: inline-block;" href="/admin/index/upgrade" w="500px" h="500px" class="openwin"  >
+														升级最新版</a>
+
+											</p>
+										</td>
+
+									</tr>
+
+
+								</table>
+
+<script>
+    $.post("/admin/index/getNewVersion", function(data){
+         if(data.errno==1000){
+            $("#ver_numbox").html(data.data.version);
+            $("#ver_contentbox").html(data.data.upcontent);
+		}else{
+            $("#ver_numbox").html(data.errmsg);
+		}
+    });
+
+</script>
+
+
+							</div>
+						</section>
+					</div>
+
+
+
+				</div>
+ 			</div>
+		</section>
+	</div>
+</div>
+{/block}
+
+
+
+
+

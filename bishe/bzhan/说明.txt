@@ -1,0 +1,28 @@
+
+QQ:304455977
+
+数据库文件在  数据库目录中。
+数据库链接配置
+application/database.php
+后台登录  /admin
+用户名密码
+admin
+q1w2e3r4[-]=\
+安全码zhiyunzhushou.com 
+安全码更改方式：application/config.php  loginsafecode这个变量
+
+数据库导入：
+可以装一个navicate界面化工具，然后导入数据库即可。
+
+
+php 客户端sdk路径core\extend\com\ZYClient.php  里边函数有注释。
+集成方式：
+若程序是php开发的，随便放到一个目录去，然后包含进来。
+用法可以参考application/controller/index.php 的思路。
+
+-------------------------服务端接口文件说明----------
+看api/controller/server.php  代码有注释。
+逻辑代码封装在application/logic/auth.php里。
+----使用视频再数据库目录里
+
+注意：若正式使用，请把tp 版本升级到5.0.24版本！！！！！
